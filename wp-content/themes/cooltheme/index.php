@@ -2,9 +2,9 @@
 	<?php if(have_posts()): ?>
 		<?php while(have_posts()): ?>
 			<?php the_post(); ?>
-			<h1><?php the_title(); ?></h1>
-			<small>Posted On: <?php the_time(); ?> Category:  <?php the_category(); ?></small>
-			<p><?php the_content(); ?></p>
+			<?php get_template_part('content/content',get_post_format()); ?>
 		<?php endwhile; ?>
 	<?php endif; ?>
+<?php get_sidebar('sidebar'); ?>
+
 <?php get_footer(); ?>

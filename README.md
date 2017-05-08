@@ -1,6 +1,8 @@
 # My Word Press Study
 
 ### Reference:
+#### Tutorial Author
+Alessandro Castellani
 #### WordPress 101: Create a Theme from Scratch
 (https://www.youtube.com/watch?v=oTRZYnYQlmo&list=PLriKzYyLb28nUFbe0Y9d-19uVkOnhYxFE)
 #### WordPress 101 - Part 2: How to properly include CSS and JS files
